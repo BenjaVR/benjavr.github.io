@@ -15,16 +15,30 @@ body, html {
   .contentcontainer {
     flex-direction: column !important;
   }
+
+  .footer {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .footerDivider {
+    height: 2px;
+    width: 100% !important;
+    background-color: #3D85C6;
+    margin: 8px 0 !important;
+  }
 }
 
 .container {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   background-color: rgb(31, 31, 31);
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .subcontainer {
@@ -35,6 +49,7 @@ body, html {
 .contentcontainer {
   display: flex;
   flex-direction: row;
+  flex: 1;
 }
 
 .info {
@@ -60,7 +75,7 @@ body, html {
 }
 
 .logo {
-  max-width: 100%;
+  max-width: 90%;
   width: 500px;
 }
 
@@ -79,6 +94,7 @@ body, html {
 
 .social i {
   font-size: xx-large;
+  transition: .5s;
 }
 
 .social i:hover {
@@ -88,4 +104,29 @@ body, html {
 .social a {
   text-decoration: none;
   color: unset;
+}
+
+.footer {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: rgb(200, 200, 200);
+  transition: .1s ease-in;
+}
+
+.footerDivider {
+  width: 2px;
+  background-color: #3D85C6;
+  margin: 0 8px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: unset;
+  transition: .1s ease-in;
+}
+
+.footer a:hover {
+  color: #3D85C6;
 }
