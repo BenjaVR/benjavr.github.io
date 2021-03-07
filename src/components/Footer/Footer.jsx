@@ -51,7 +51,7 @@ const Footer = () => {
                       relativePath
                       name
                       childImageSharp {
-                        fixed(width: 200) {
+                        fixed(width: 200, quality: 90) {
                           ...GatsbyImageSharpFixed
                         }
                       }
