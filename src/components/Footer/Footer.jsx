@@ -64,7 +64,6 @@ const Footer = () => {
               const image = data.images.edges.find((n) => n.node.name === 'logo');
 
               if (!image) return null;
-              console.log(image, image.node.childImageSharp.fixed);
 
               const imageFixed = image.node.childImageSharp.fixed;
               return <Img className="align-content-center" style={{ width: 200, maxWidth: '90%' }} alt="logo" fixed={imageFixed} />;
