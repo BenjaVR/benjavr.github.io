@@ -74,23 +74,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
+      name: 'stack-overflow',
+      url: 'https://stackoverflow.com/users/6077371/benjavr',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/BenjaVR',
+    },
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/benjamin-vr/',
     },
   ],
 };
