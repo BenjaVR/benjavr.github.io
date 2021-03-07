@@ -49,7 +49,8 @@ export const projectsData = [
     title: 'Tezzex auto-buy micro-service',
     info: 'A micro-service that can find and automatically buy products on several webshops, used to replace the manual actions of a lot of people - saving many hours and resources.',
     info2: 'Built with Typescript, Nodejs, Express, Puppeteer, Postgres.',
-    url: 'https://tezzex.com'
+    url: 'https://tezzex.com',
+    remark: 'The program is not visible, but used by the Tezzex back-end.',
   },
   {
     id: nanoid(),

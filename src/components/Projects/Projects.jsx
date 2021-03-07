@@ -71,7 +71,7 @@ const Projects = () => {
                         </a>
                       )}
                       {remark && (
-                        <i className="d-block mt-2 ml-2">{remark}</i>
+                        <i className="d-block mt-2">{remark}</i>
                       )}
                     </div>
                   </Fade>
