@@ -53,6 +53,10 @@
       width: 90%;
       margin: 0 auto;
 
+      &--smaller {
+        width: 50%
+      }
+
       @include respond(tab-land) {
         width: 100%;
         margin: 0;

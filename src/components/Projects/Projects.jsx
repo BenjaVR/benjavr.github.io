@@ -30,7 +30,7 @@ const Projects = () => {
           <Title title="Projects" />
           <SubTitle title="Some notable projects..." />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id, remark } = project;
+            const { title, info, info2, url, repo, img, imgSmaller, id, remark } = project;
 
             return (
               <Row key={id}>
@@ -84,7 +84,7 @@ const Projects = () => {
                     delay={1000}
                     distance="30px"
                   >
-                    <div className="project-wrapper__image">
+                    <div className={"project-wrapper__image" + `${imgSmaller ? ' project-wrapper__image--smaller' : ''}`}>
                       <a
                         href={url || '#!'}
                         target="_blank"

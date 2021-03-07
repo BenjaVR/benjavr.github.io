@@ -37,6 +37,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project-matchup',
+    imgSmaller: true,
     title: 'Matchup',
     info: 'I have built the fundamentals and first versions of the cross-platform Matchup apps for both Android and iOS from scratch. I guided and managed other developers who started working on the app later in the project\'s lifecycle.',
     info2: 'Built with React Native, Typescript, Nodejs, Firebase, Google Cloud Postgres.',
