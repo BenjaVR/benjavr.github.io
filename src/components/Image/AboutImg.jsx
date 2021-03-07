@@ -10,7 +10,6 @@ const AboutImg = ({ filename, alt }) => (
         images: allFile {
           edges {
             node {
-              relativePath
               name
               childImageSharp {
                 fixed(width: 350) {
@@ -23,12 +22,12 @@ const AboutImg = ({ filename, alt }) => (
       }
     `}
     render={(data) => {
-      const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
+      const image = data.images.edges.find((n) => n.node.name === filename);
 
       if (!image) return null;
 
       const imageFixed = image.node.childImageSharp.fixed;
-      return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
+      return <Img className="rounded rounded-circle shadow-lg" alt={alt} fixed={imageFixed} />;
     }}
   />
 );
