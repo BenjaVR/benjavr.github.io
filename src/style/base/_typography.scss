@@ -30,7 +30,19 @@ a:hover {
   text-transform: uppercase;
 
   @include respond(phone) {
-    font-size: 2.8rem;
+    font-size: $big-font-size * 0.7;
+  }
+}
+
+.section-subtitle {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: $mid-font-size;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @include respond(phone) {
+    font-size: $mid-font-size * 0.7;
   }
 }
 

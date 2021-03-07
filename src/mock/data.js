@@ -28,30 +28,37 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project-u2be',
+    title: 'U2be website',
+    info: 'A pixel perfect clone of the U2 website, made for a Belgian U2 tribute band named \'U2be\'.',
+    info2: 'Built with PHP, Laravel, OctoberCMS, Bootstrap, SASS.',
+    url: 'https://u2be.eu',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project-matchup',
+    title: 'Matchup',
+    info: 'I have built the fundamentals and first versions of the cross-platform Matchup apps for both Android and iOS from scratch. I guided and managed other developers who started working on the app later in the project\'s lifecycle.',
+    info2: 'Built with React Native, Typescript, Nodejs, Firebase, Google Cloud Postgres.',
+    url: 'https://matchupapp.net'
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project-tezzex',
+    title: 'Tezzex auto-buy micro-service',
+    info: 'I have built a micro-service that can find and buy products on several ',
+    info2: 'Built with Typescript, Nodejs, Express, Puppeteer, Postgres.',
+    url: 'https://tezzex.com'
+  },
+  {
+    id: nanoid(),
+    img: 'project-studentplanner',
+    title: 'Student Planner',
+    info: 'Application to manage students and their internships for your company.',
+    info2: 'Built with Typescript, React, Ant design, SASS, Firebase.',
+    url: 'https://stud-plan.web.app',
+    repo: 'https://github.com/BenjaVR/StudentPlanner', // if no repo, the button will not show up
+    remark: 'Login required, contact me if interested.'
   },
 ];
 
