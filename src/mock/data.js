@@ -46,7 +46,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project-tezzex',
     title: 'Tezzex auto-buy micro-service',
-    info: 'I have built a micro-service that can find and buy products on several ',
+    info: 'A micro-service that can find and automatically buy products on several webshops, used to replace the manual actions of a lot of people - saving many hours and resources.',
     info2: 'Built with Typescript, Nodejs, Express, Puppeteer, Postgres.',
     url: 'https://tezzex.com'
   },
