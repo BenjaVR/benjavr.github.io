@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I am a professional and enthusiastic full-stack software engineer, with a strong focus on front-end development.',
+  paragraphTwo: 'My skills go from front-end web development (with Typescript, React ...) to back-end web development (with .NET, Node, Python ...) to mobile apps (with React Native, Ionic ...). I stay up-to-date with the latest trends so every challenge is welcome.',
+  paragraphThree: 'If you want to work with me, or just talk, do not hesitate to contact me!',
+  resume: 'https://drive.google.com/file/d/1aFGoFWx5ZiLb_SjnI67oBBKNhUwFp9w5/view', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -66,7 +66,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'benjamin@bvrcode.com',
 };
 
 // FOOTER DATA
