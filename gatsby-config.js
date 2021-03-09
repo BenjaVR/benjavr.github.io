@@ -20,15 +20,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
-        start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#02aab0`,
-        display: `standalone`,
-        icon: 'src/images/favicon.png',
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
       },
     },
   ],
