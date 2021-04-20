@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
-import SubTitle from "../Title/SubTitle";
+import SubTitle from '../Title/SubTitle';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -45,10 +45,7 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                        </p>
+                        <p>{info || ''}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <a
@@ -70,9 +67,7 @@ const Projects = () => {
                           Source Code
                         </a>
                       )}
-                      {remark && (
-                        <i className="d-block mt-2">{remark}</i>
-                      )}
+                      {remark && <i className="d-block mt-2">{remark}</i>}
                     </div>
                   </Fade>
                 </Col>
@@ -84,7 +79,12 @@ const Projects = () => {
                     delay={1000}
                     distance="30px"
                   >
-                    <div className={"project-wrapper__image" + `${imgSmaller ? ' project-wrapper__image--smaller' : ''}`}>
+                    <div
+                      className={
+                        'project-wrapper__image' +
+                        `${imgSmaller ? ' project-wrapper__image--smaller' : ''}`
+                      }
+                    >
                       <a
                         href={url || '#!'}
                         target="_blank"
