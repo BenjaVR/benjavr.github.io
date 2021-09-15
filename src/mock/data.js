@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo: 'My skills go from front-end web development (with Typescript, React ...) to back-end web development (with .NET, Node, Python ...) to mobile apps (with React Native, Ionic ...). I stay up-to-date with the latest trends so every challenge is welcome.',
   paragraphThree: 'If you want to work with me, or just talk, do not hesitate to contact me!',
   resume: 'https://1drv.ms/b/s!AuJ5D_Va4DH9iLEHL5nDEqrZ-l6Vcg', // if no resume, the button will not show up
-
+};
 
 // PROJECTS DATA
 export const projectsData = [
