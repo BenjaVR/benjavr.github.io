@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I am a professional and enthusiastic full-stack software engineer, with a strong focus on front-end development.',
   paragraphTwo: 'My skills go from front-end web development (with Typescript, React ...) to back-end web development (with .NET, Node, Python ...) to mobile apps (with React Native, Ionic ...). I stay up-to-date with the latest trends so every challenge is welcome.',
   paragraphThree: 'If you want to work with me, or just talk, do not hesitate to contact me!',
-  resume: 'https://drive.google.com/file/d/1aFGoFWx5ZiLb_SjnI67oBBKNhUwFp9w5/view', // if no resume, the button will not show up
+  resume: 'https://1drv.ms/b/s!AuJ5D_Va4DH9iLEDbYkMSAjembUfkQ', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
