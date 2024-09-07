@@ -1,0 +1,38 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+    </head>
+    <body class="bg-gray-900 text-white font-sans">
+        <header class="flex items-center justify-between p-5 bg-gray-800">
+            <div class="text-2xl font-bold">SP</div>
+            <nav class="flex gap-4">
+                <a href="#service" class="hover:text-pink-500">Service</a>
+                <a href="#portfolio" class="hover:text-pink-500">Portfolio</a>
+                <a href="#videos" class="hover:text-pink-500">Videos</a>
+                <a href="#about" class="hover:text-pink-500">About</a>
+                <a href="#contact" class="hover:text-pink-500">Contact</a>
+            </nav>
+            <div class="flex gap-4">
+                <a href="mailto:spoftwarecode@gmail.com" class="hover:text-pink-500">spoftwarecode@gmail.com</a>
+                <a href="tel:+8801825679342" class="hover:text-pink-500">+8801825679342</a>
+                <a href="#" class="hover:text-pink-500">FB</a>
+                <a href="#" class="hover:text-pink-500">TW</a>
+                <a href="#" class="hover:text-pink-500">IG</a>
+            </div>
+        </header>
+        <main>
+            <slot/>
+        </main>
+    </body>
+</html>

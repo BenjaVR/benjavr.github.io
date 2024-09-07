@@ -1,11 +1,17 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '../layouts/layout.astro';
 ---
 
-<Layout title="BVR Code - Software solutions">
-    <div class="flex flex-1 items-center justify-center">
-        <div class="p-8 rounded-xl backdrop-blur-sm bg-white/30">
-            <h1 class="text-white font-extrabold text-5xl">🏗️ Coming soon...</h1>
+<Layout>
+    <section class="min-h-screen flex items-center justify-center bg-gray-900 text-white">
+        <div class="text-center">
+            <p class="text-lg mb-2">Creative Freelancer</p>
+            <h1 class="text-5xl font-bold mb-2">Sajeeb Debnath</h1>
+            <p class="text-pink-500 mb-4">Web Designer . Web Developer . Programmer</p>
+            <a href="#about" class="inline-block bg-pink-500 text-white py-2 px-4 rounded-full">ABOUT ME</a>
         </div>
-    </div>
+        <div class="mt-10">
+            <img src="/path/to/your/image.jpeg" alt="Sajeeb Debnath" class="rounded-full w-48 h-48 mx-auto"/>
+        </div>
+    </section>
 </Layout>
